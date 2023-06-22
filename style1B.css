@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+body{
+    margin: 2% 4%;
+    padding: 3% 4%;
+    background-color:antiquewhite;
+
+}
+header{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-size:cover;
+    border: 2px solid darkolivegreen;
+    border-radius: 50px;
+
+}
+ .link2 {
+    display: flex;
+align-items: center;
+justify-content: space-around;
+    gap: 30px;}
+    
+    a{
+text-decoration: none;
+cursor: pointer;
+text-transform: capitalize;
+
+}
+a:hover{
+    border: 2px solid saddlebrown;
+    background-color:darkgrey;
+    font-size: 20px;
+    font-weight: 50;
+    
+}
+button{
+    
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+    border: 2px solid darkcyan;
+    font-size: 20px;
+    font-weight: 20;
+    border-radius: 50px;
+    width: fit-content;
+
+}
+button:hover{
+    background-color:aliceblue ;
+    color: blue;
+
+}
+main{
+    display: flex;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+span{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 100;
+}
+h3{
+  font-size: 30px;
+  font-weight: 100; 
+  text-transform: capitalize; 
+}
+h3 span{
+    font-size: 60px;
+    font-weight: 100;
+}
+section p{
+    margin: 5px;
+    padding: 10px;
+}
+.image{
+     /* padding: 20px; */
+     border-radius: 300px ;
+     border-image-source: ; 
+}
+.b{
+    padding: 20px;
+    /* gap: 20px; */
+}
+footer{
+    display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
